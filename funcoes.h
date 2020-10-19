@@ -36,7 +36,7 @@ bool lista_vazia(celula *p){//extra!!!!!!!!
     if(p==NULL){
         return false;
     }
-    if(*p==NULL){
+    if(p==NULL){
         return false;}
     return true;
 }
